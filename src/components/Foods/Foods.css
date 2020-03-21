@@ -1,0 +1,10 @@
+.nav-link{
+    cursor: pointer;
+}
+.nav{
+    margin-bottom: 50px;
+}
+
+/* Special Border: */
+/* background: linear-gradient(#F91C47,#F91C47) bottom no-repeat;
+    background-size: 50% 3px; */
