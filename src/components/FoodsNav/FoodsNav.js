@@ -3,18 +3,22 @@ import './FoodsNav.css'
 import Foods from '../Foods/Foods';
 
 const FoodsNav = () => {
-    const [food, setFood] = useState("lunch");
+    const [category, setCategory] = useState("lunch");
     const [border, setBorder] = useState(true);
-    const handleFood = (food) => {
-        setFood(food);
+
+    const handleFoodCategory = (ctgr) => {
+        setCategory(ctgr);
         setBorder(true);
     }
+    
     return (
-        <div>
-            <Foods food={food}
+        <div className="total-food-container">
+            <Foods category={category}
             border={border}
-            handleFood = {handleFood}
+            handleFoodCategory = {handleFoodCategory}
             ></Foods>
+
+            <button>Checkout Your Food</button>
         </div>
     );
 };

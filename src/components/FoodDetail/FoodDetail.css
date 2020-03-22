@@ -1,0 +1,13 @@
+.food-detail button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: #F91C47;
+    color: white;
+    margin-top: 40px;
+}
+.nxt-img{
+    width: 100px;
+    margin-top: 40px;
+    margin-right: 25px;
+}
