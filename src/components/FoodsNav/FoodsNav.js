@@ -15,10 +15,9 @@ const FoodsNav = () => {
         <div className="total-food-container">
             <Foods category={category}
             border={border}
+            disabled={true}
             handleFoodCategory = {handleFoodCategory}
             ></Foods>
-
-            <button>Checkout Your Food</button>
         </div>
     );
 };
